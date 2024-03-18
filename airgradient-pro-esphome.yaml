@@ -38,7 +38,7 @@ esphome:
 
   project:
     name: rf152.airgradient_pro_esphome
-    version: "1.0"
+    version: "1.1"
 
   
 # Enable Home Assistant API (API password is deprecated in favor of encryption key)
