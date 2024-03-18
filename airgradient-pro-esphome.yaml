@@ -1,8 +1,7 @@
 # Insert your SSID and Your PWD after inital setup
 wifi:
-  networks:
-    - ssid: "My SSID"
-      password: "Wifi Password"
+  ssid: "My SSID"
+  password: "Wifi Password"
   reboot_timeout: 15min
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
