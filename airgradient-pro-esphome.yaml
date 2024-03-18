@@ -1,8 +1,8 @@
 # Insert your SSID and Your PWD after inital setup
 wifi:
   networks:
-    - ssid: !secret wifi_ssid
-      password: !secret wifi_password
+    - ssid: "My SSID"
+      password: "Wifi Password"
   reboot_timeout: 15min
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
@@ -45,10 +45,9 @@ esphome:
 # https://esphome.io/components/api.html
 api:
   encryption:
-    key: !secret home_assistant_encryption_key
+    key: "SecretKey"
 
 ota:
-  password: !secret ota_password
 
 # Enable logging
 logger:
