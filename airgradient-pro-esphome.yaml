@@ -59,7 +59,7 @@ font:
   - file: "fonts/ltype.ttf"
     id: helvetica
     size: 12
-    glyphs: |
+    glyphs: >-
       !"%()+=,-_.:°0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyzµ³/
 
 display:
