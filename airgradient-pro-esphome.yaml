@@ -29,10 +29,11 @@ substitutions:
   # temperature_units: "F"
   temperature_units: "C"
 
+esp8266:
+  board: d1_mini
+
 esphome:
   name: "${name}"
-  platform: ESP8266
-  board: d1_mini
   name_add_mac_suffix: true
 
   project:
